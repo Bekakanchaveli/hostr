@@ -1,3 +1,10 @@
+:root {
+  --fontWeightNormal: 200 !important;
+  --fontWeightLightBold: 200 !important;
+  --fontWeightMediumBold: 200 !important;
+  --fontWeightHeavyBold: 200 !important;
+}
+
 /* Reset base */
 body {
   background: transparent !important;
