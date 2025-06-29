@@ -1,0 +1,27 @@
+:root {
+    --colorNeutral800: #FFFFFF;        /* Keep white text */
+    --colorNeutral700: #FDFDFD;        /* Keep very light text */
+    --colorNeutral600: #CBD5E1;        /* Light gray for secondary text */
+    --colorNeutral500: #94A3B8;        /* Medium gray */
+    --colorNeutral400: #64748B;        /* Darker gray */
+    --colorNeutral300: #475569;        /* Dark gray */
+    --colorNeutral200: #334155;        /* Your site's dark blue background */
+    --colorNeutral100: #1E293B;        /* Darker blue */
+    --colorNeutral000: #0F172A;        /* Very dark blue */
+    --widthMaxJobBoard: 1280px;
+    --widthMaxJobContent: 1280px;
+}
+html {
+    background-color: var(--colorNeutral200);
+}
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--colorNeutral800);
+    background-color: var(--colorNeutral200);
+}
+textarea {
+    color: var(--colorNeutral800);
+    background-color: var(--colorNeutral100);
+}
