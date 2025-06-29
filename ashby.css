@@ -6,6 +6,16 @@
     }
 }
 
+#job-application-form._tab_14ib5_30._active_14ib5_65 {
+  color: white !important;
+}
+
+@media only screen and (min-width: 768px) {
+    ._tab_14ib5_30, ._slider_14ib5_74 {
+        color: #ffffff8a !important;
+    }
+}
+
 ._tabs_14ib5_30 {
     display: flex;
     margin-top: var(--spacingLarge);
@@ -45,7 +55,6 @@ span.ashby-job-posting-right-pane-overview-tab {
     ._tab_14ib5_30, ._slider_14ib5_74 {
         margin-left: var(--spacingNormal);
         width: 200px;
-        color: white;
         padding-top: 3px;
     }
 }
