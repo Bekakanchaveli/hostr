@@ -36,7 +36,7 @@ button[data-testid="filter-toggle-button"] {
 h2[data-testid="job-group-title"] {
   font-family: "KMR Waldenburg Mager", sans-serif !important;
   font-size: 24px !important;
-  font-weight: 400 !important;
+  font-weight: 200 !important;
   margin: 40px 0 10px 0 !important;
   padding-left: 0 !important;
 }
@@ -57,7 +57,7 @@ a[data-testid="job-listing"] {
 p[data-testid="job-title"] {
   font-family: "KMR Waldenburg Mager", sans-serif !important;
   font-size: 24px !important;
-  font-weight: 400 !important;
+  font-weight: 200 !important;
   margin: 0 0 4px 0 !important;
   color: #1d1d1d !important;
 }
