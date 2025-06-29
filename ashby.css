@@ -3,6 +3,10 @@
   --fontWeightLightBold: 200 !important;
   --fontWeightMediumBold: 200 !important;
   --fontWeightHeavyBold: 200 !important;
+  —-fontSizeNormal: 14px !important;
+--borderRadiusControl: 0 !important;
+--borderWidthBold: 1px !important;
+--colorNeutral300: #000000 !important;
 }
 
 /* Reset base */
