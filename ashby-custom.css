@@ -1,27 +1,59 @@
-:root {
-    --colorNeutral800: #FFFFFF;        /* Keep white text */
-    --colorNeutral700: #FDFDFD;        /* Keep very light text */
-    --colorNeutral600: #CBD5E1;        /* Light gray for secondary text */
-    --colorNeutral500: #94A3B8;        /* Medium gray */
-    --colorNeutral400: #64748B;        /* Darker gray */
-    --colorNeutral300: #475569;        /* Dark gray */
-    --colorNeutral200: #334155;        /* Your site's dark blue background */
-    --colorNeutral100: #1E293B;        /* Darker blue */
-    --colorNeutral000: #0F172A;        /* Very dark blue */
-    --widthMaxJobBoard: 1280px;
-    --widthMaxJobContent: 1280px;
-}
-html {
-    background-color: var(--colorNeutral200);
-}
 body {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    color: var(--colorNeutral800);
-      background-color: red !important;
+  background-color: transparent !important;
+  font-family: "TT Commons Pro Mono Variable", monospace !important;
+  color: rgb(29, 29, 29) !important;
+  font-size: 15px !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.4 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-textarea {
-    color: var(--colorNeutral800);
-    background-color: var(--colorNeutral100);
+
+/* Job list wrapper */
+.job-board-position-list {
+  padding: 0 0 40px 0 !important;
+  margin: 0 auto !important;
+  max-width: 600px;
+}
+
+/* Category headers */
+.job-board-category-header {
+  font-family: "KMR Waldenburg Mager", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  color: rgb(29, 29, 29) !important;
+  margin: 40px 0 10px 0 !important;
+  padding: 0 16px !important;
+}
+
+/* Job cards */
+.job-board-position-card {
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  margin: 8px 16px !important;
+  box-shadow: none !important;
+  transition: border 0.2s ease;
+}
+
+.job-board-position-card:hover {
+  border-color: #ccc !important;
+}
+
+/* Titles */
+.job-board-position-title {
+  font-family: "KMR Waldenburg Mager", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  color: rgb(29, 29, 29) !important;
+}
+
+/* Metadata */
+.job-board-position-metadata {
+  font-size: 15px !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.4 !important;
+  color: #666 !important;
+  margin-top: 4px !important;
 }
