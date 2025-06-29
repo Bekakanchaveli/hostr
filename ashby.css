@@ -6,6 +6,93 @@
     }
 }
 
+._tabs_14ib5_30 {
+    display: flex;
+    margin-top: var(--spacingLarge);
+    position: relative;
+    height: 50px;
+    background: #2E2F2F;
+}
+
+span.ashby-job-posting-right-pane-overview-tab {
+    color: white;
+}
+
+._tab_14ib5_30:not(._active_14ib5_65):hover {
+    border-bottom-color: var(--colorNeutral200);
+    color: #cdcdcd !important;
+}
+
+
+._tab_14ib5_30 {
+    font-weight: unset;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+._slider_14ib5_74 {
+    transition-duration: var(--transitionDuration);
+    transition-timing-function: var(--transitionFunction);
+    background-color: #FF93ED;
+    border-radius: var(--tabSliderHeight);
+    bottom: 0px;
+    left: -16px;
+    position: absolute;
+    transition-property: transform;
+}
+
+@media only screen and (min-width: 768px) {
+    ._tab_14ib5_30, ._slider_14ib5_74 {
+        margin-left: var(--spacingNormal);
+        width: 200px;
+        color: white;
+        padding-top: 3px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    ._title_ud4nd_34 {
+        letter-spacing: 1px !important;
+        font-family: "KMR Waldenburg Fein", "KMR Waldenburg Fein Placeholder", sans-serif;
+        font-size: 32px;
+        --framer-line-height: 1.1em;
+    }
+}
+
+._button_8wvgw_29 {
+    transition-duration: var(--transitionDuration);
+    transition-timing-function: var(--transitionFunction);
+    align-items: center;
+    border: var(--borderWidthBold) solid transparent;
+    border-radius: var(--borderRadiusButton);
+    box-shadow: 0 2px 6px var(--colorNeutralShadow);
+    cursor: pointer;
+    display: inline-flex
+;
+    font-size: 12px;
+    font-family: "TT Commons Pro Mono Variable", monospace !important;
+    font-weight: var(--fontWeightLightBold);
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: var(--letterSpacingWide);
+    line-height: calc(var(--buttonLineHeight) * 1em);
+    padding: var(--spacingNormal);
+    text-align: center;
+    text-decoration: none;
+    transition-property: color, background-color, border-color, box-shadow, transform;
+    white-space: nowrap;
+}
+
+._back_14ib5_49 {
+    background-color: #f0eee7 !important;
+}
+
+
+
+._sticky_14ib5_41 {
+    margin-bottom: 40px !important;
+}
+
 @media only screen and (min-width: 768px) {
     ._details_12ylk_389 {
         font-size: 12px !important;
