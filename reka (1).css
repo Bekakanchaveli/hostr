@@ -19,7 +19,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: var(--colorNeutral800);
-    background-color: var(--colorNeutral200);
+      background-color: red !important;
 }
 textarea {
     color: var(--colorNeutral800);
