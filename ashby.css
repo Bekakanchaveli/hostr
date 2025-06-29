@@ -6,8 +6,22 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    ._details_12ylk_389 {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    ._title_12ylk_383 {
+        font-size: 14px !important;
+        letter-spacing: -0.2px !important;
+    }
+}
+
 ._jobPosting_12ylk_379.ashby-job-posting-brief._container_101oc_29:hover {
-  border: 1px solid #2276FF !important;
+  border: 1.5px solid #2276FF !important;
+  background: white !important;
 }
 
 ._filtersHeader_12ylk_201 {
@@ -32,7 +46,7 @@
 }
 
 ._jobPosting_12ylk_379.ashby-job-posting-brief._container_101oc_29 {
-    border: 1px solid #000000 !important;
+    border: 1.5px solid #000000 !important;
     border-radius: 0px !important;
     background: #fcfaf7 !important;
     margin-bottom: 10px !important;
