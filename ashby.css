@@ -1,0 +1,73 @@
+body {
+  background-color: transparent !important;
+  font-family: "TT Commons Pro Mono Variable", monospace !important;
+  color: rgb(29, 29, 29) !important;
+  font-size: 15px !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.4 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Container max width */
+.job-board-position-list {
+  padding: 0 0 40px 0 !important;
+  margin: 0 auto !important;
+  max-width: 1000px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Filter Button */
+.job-board-filter-button {
+  font-family: "TT Commons Pro Mono Variable", monospace !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  border: 1px solid rgb(29, 29, 29) !important;
+  color: rgb(29, 29, 29) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 8px 16px !important;
+  margin: 16px 0 !important;
+  display: inline-block !important;
+}
+
+/* Section headers like "Product Management" */
+.job-board-category-header {
+  font-family: "KMR Waldenburg Mager", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: rgb(29, 29, 29) !important;
+  margin: 40px 0 10px 0 !important;
+  padding: 0 16px !important;
+}
+
+/* Job cards */
+.job-board-position-card {
+  background: #fff !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 0 !important;
+  padding: 16px !important;
+  margin: 8px 16px !important;
+  box-shadow: 0 0 2px rgba(0,0,0,0.05) !important;
+  transition: border 0.2s ease;
+}
+
+/* Title text inside cards */
+.job-board-position-title {
+  font-family: "KMR Waldenburg Mager", sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  color: rgb(29, 29, 29) !important;
+  margin-bottom: 6px !important;
+}
+
+/* Job details (department, location etc.) */
+.job-board-position-metadata {
+  font-size: 15px !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.4 !important;
+  color: #666 !important;
+}
